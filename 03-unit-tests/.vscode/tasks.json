@@ -30,7 +30,7 @@
         {
             "label": "C/C++: g++ run tests",
             "type": "shell",
-            "command": "/usr/bin/g++ -std=c++17 -stdlib=libc++ -g ./src/*.cpp ./test/*.cpp -lgtest -lgtest_main -lpthread  -DUNIT_TEST -o obj/tests",
+            "command": "\\usr\\bin\\g++ -std=c++17 -stdlib=libc++ -g .\\src\\*.cpp .\\test\\*.cpp -lgtest -lgtest_main -lpthread  -DUNIT_TEST -o obj\\tests",
             "group": {
                 "kind": "test",
                 "isDefault": true
