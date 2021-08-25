@@ -13,7 +13,7 @@
                 "-lgtest",
                 "-lpthread",
                 "-o",
-                "${workspaceFolder}/obj/clase02"
+                "${workspaceFolder}\\obj\\clase02.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
