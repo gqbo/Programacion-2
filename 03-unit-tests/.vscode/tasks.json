@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++ build files",
-            "command": "/usr/bin/g++",
+            "command": "\\usr\\bin\\g++",
             "args": [
                 "-std=c++17",
                 "-stdlib=libc++",
