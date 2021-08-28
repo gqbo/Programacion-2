@@ -3,17 +3,13 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++ build files",
-            "command": "\\usr\\bin\\g++",
+            "command": "g++",
             "args": [
                 "-std=c++17",
-                "-stdlib=libc++",
                 "-g",
                 "${workspaceFolder}\\src\\*.cpp",
-                "${workspaceFolder}\\test\\*.cpp",
-                "-lgtest",
-                "-lpthread",
                 "-o",
-                "${workspaceFolder}\\obj\\clase02.exe"
+                "${workspaceFolder}\\obj\\clase03.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -30,7 +26,7 @@
         {
             "label": "C/C++: g++ run tests",
             "type": "shell",
-            "command": "\\usr\\bin\\g++ -std=c++17 -stdlib=libc++ -g .\\src\\*.cpp .\\test\\*.cpp -lgtest -lgtest_main -lpthread  -DUNIT_TEST -o obj\\tests",
+            "command": "g++ -std=c++17 -g .\\src\\*.cpp .\\test\\*.cpp -lgtest -lgtest_main -lpthread  -DUNIT_TEST -o .\\obj\\tests.exe",
             "group": {
                 "kind": "test",
                 "isDefault": true

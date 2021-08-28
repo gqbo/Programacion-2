@@ -8,13 +8,14 @@
             "name": "g++ - Debug program",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\obj\\clase02.exe",
+            "program": "${workspaceFolder}\\obj\\clase03.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
+            "console": "internalConsole",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
             "preLaunchTask": "C/C++: g++ build files"
         },
         {
@@ -26,8 +27,9 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,
-            "MIMode": "lldb",
+            "console": "internalConsole",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
             "preLaunchTask": "C/C++: g++ run tests"
         }
     ]
