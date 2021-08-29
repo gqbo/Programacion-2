@@ -8,11 +8,16 @@
             "name": "g++.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
+<<<<<<< HEAD
             "program": "${workspaceFolder}/obj/clase03.exe",
+=======
+            "program": "${workspaceFolder}\\obj\\clase03.exe",
+>>>>>>> 4cb6fc148e189e0e36686133c323d32c088c2e2a
             "args": [],
             "stopAtEntry": false,
             "cwd": "C:/msys64/mingw64/bin",
             "environment": [],
+<<<<<<< HEAD
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
@@ -24,6 +29,12 @@
                 }
             ],
             "preLaunchTask": "C/C++: g++.exe build active file"
+=======
+            "console": "internalConsole",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "preLaunchTask": "C/C++: g++ build files"
+>>>>>>> 4cb6fc148e189e0e36686133c323d32c088c2e2a
         },
         {
             "name": "g++ - Debug tests",
