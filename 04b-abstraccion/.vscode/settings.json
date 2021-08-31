@@ -1,9 +1,4 @@
 {
-    "files.associations": {
-        "*.config": "xml",
-        "vector": "cpp",
-        "iostream": "cpp"
-    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -27,7 +22,7 @@
         ]
     },
     "gtest-adapter.debugConfig": [
-        "g++ - Debug program"
+        "g++ - Debug tests"
     ],
-    "gtest-adapter.supportLocation": false
+    "gtest-adapter.supportLocation": true
 }

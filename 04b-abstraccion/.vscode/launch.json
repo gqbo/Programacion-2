@@ -5,29 +5,39 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++ - Debug program",
+            "name": "g++.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/obj/clase02",
+            "program": "${workspaceFolder}/obj/clase03.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "C:/msys64/mingw64/bin",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "C/C++: g++ build files"
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe build active file"
         },
+
         {
             "name": "g++ - Debug tests",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/obj/tests",
+            "program": "${workspaceFolder}/obj/tests.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,
-            "MIMode": "lldb",
+            "console": "internalConsole",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
             "preLaunchTask": "C/C++: g++ run tests"
         }
     ]
