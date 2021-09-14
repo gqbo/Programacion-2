@@ -23,6 +23,15 @@ int main() {
     {
         cout << "Diferentes";
     }
+
+    if (medio == dos_cuartos)
+    {
+        cout << "Iguales" << endl;
+    }
+    else
+    {
+        cout << "Diferentes";
+    }
     
     Fraccion tercio = {1, 3};
     Fraccion base = {1, 2};

@@ -1,4 +1,4 @@
-
+                            
 #include "fraccion.h"
 
 Fraccion::Fraccion()
@@ -85,7 +85,7 @@ bool Fraccion::operator== (Fraccion &f) {
     return resultado;
 }
 
-bool Fraccion::operator== (float &f) {
+bool Fraccion::operator== (float &f) { 
     
     //return (this->numerador == f.numerador) && (this->denominador == f.denominador);
     bool resultado = this->ToFloat() == f;
